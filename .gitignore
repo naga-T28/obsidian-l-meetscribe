@@ -1,0 +1,41 @@
+# 手元だけで使う設計文書・開発ガイド・検証用コード
+docs/
+AGENTS.md
+CLAUDE.md
+.claude/
+spikes/
+native/MeetingAudioHelper/verify/
+
+# npm
+node_modules/
+npm-debug.log*
+*.log
+coverage/
+
+# ビルド成果物
+main.js
+*.map
+lms-audio-helper
+lms-audio-helper.tmp
+.build/
+
+# Obsidianのプラグイン設定（参照IDを含む）
+data.json
+
+# 秘密情報
+.env
+.env.*
+
+# 音声・Whisperモデル・作業データ
+*.wav
+*.m4a
+*.caf
+ggml-*.bin
+*.part
+Meetings/audio/
+
+# エディタ・OS
+.vscode/
+.idea/
+*.swp
+.DS_Store

@@ -1,0 +1,76 @@
+/* L Meetscribe */
+
+.lms-setting-error {
+	color: var(--text-error);
+}
+
+.lms-setting-error:empty {
+	display: none;
+}
+
+/* 会議ブロック */
+
+.lms-block {
+	display: flex;
+	flex-direction: column;
+	gap: var(--size-4-2);
+	padding: var(--size-4-3);
+	border: var(--border-width) solid var(--background-modifier-border);
+	border-radius: var(--radius-m);
+}
+
+.lms-block-header,
+.lms-block-controls {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: var(--size-4-2);
+}
+
+.lms-block-state {
+	font-weight: var(--font-semibold);
+}
+
+.lms-block-elapsed,
+.lms-block-progress {
+	color: var(--text-muted);
+	font-variant-numeric: tabular-nums;
+}
+
+.lms-block-error {
+	color: var(--text-error);
+}
+
+.lms-block-warning {
+	color: var(--text-warning);
+}
+
+.lms-block-note {
+	color: var(--text-faint);
+	font-size: var(--font-ui-smaller);
+}
+
+/* ステータスバー */
+
+.lms-status {
+	gap: var(--size-4-2);
+}
+
+.lms-status-action {
+	cursor: var(--cursor);
+	text-decoration: underline;
+}
+
+.lms-recovery-item {
+	padding: var(--size-4-2) 0;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.lms-recovery-title {
+	font-weight: var(--font-semibold);
+}
+
+.lms-recovery-note {
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+}

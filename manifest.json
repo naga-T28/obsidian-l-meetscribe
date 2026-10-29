@@ -1,0 +1,9 @@
+{
+	"id": "l-meetscribe",
+	"name": "L Meetscribe",
+	"version": "0.1.0",
+	"minAppVersion": "1.11.4",
+	"description": "Record meetings from an lms block, transcribe them locally, and summarize the transcript.",
+	"author": "nagat",
+	"isDesktopOnly": true
+}
