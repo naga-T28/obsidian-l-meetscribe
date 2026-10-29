@@ -36,6 +36,8 @@ scripts/setup.sh "/path/to/your/Vault"
 
 終わったらObsidianを起動し、「設定 → コミュニティプラグイン」で制限モードをオフにして「L Meetscribe」を有効にします。
 
+> 内部出力の音声が録音されない場合は、設定の「プライバシーとセキュリティー」からObsidianのシステム録音を許可してください。
+
 オプションは`scripts/setup.sh --help`で確認できます。
 
 <details>
